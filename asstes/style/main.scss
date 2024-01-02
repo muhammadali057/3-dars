@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.containr {
+   width:  375px;
+    height: 6927px;
+    background-color: dodgerblue;
+    .fa-bars{
+       padding: 20px 20px;
+    }
+    .header_text{
+        font-size: 10px;
+        margin-left: 50px;
+        margin-top: -25px;
+        text-decoration: none;
+    }
+    .header_btn{
+        width: 158px;
+        height: 37px;
+        background-color: #3CC8AE;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        position: relative;
+        left: 200px;
+        top: -30px;
+        transition: .5s;
+        &:hover{
+            box-shadow: 0px 10px 5px 5px #3CC8AE;
+            cursor: pointer;
+            background-color: #FFFFFF;
+            color: #3CC8AE;
+            transition: .5s;
+        }
+    }
+    .header_amazon{
+        padding: 10px 20px;
+    }
+    .data{
+        margin-left: 20px;
+    }
+    .main{
+        width: 335px;
+        height: 2370px;
+        background-color: #FFFFFF;
+        .main_text{
+            font-size: 23px;
+        }
+        .row{
+            width: 375px;
+            height: 65px;
+            background-color: #3CC8AE;
+            margin-left: -20px;
+            margin-top: -2220px;
+            .row_img1{
+              margin-left: 20px;  
+            }
+            .inestagram_img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .main_text2{
+            margin-top: 100px;
+            font-family: 'Roboto-Regular';
+        }
+        .main_img{
+        margin-top: 50px;
+        }
+        .main_text3{
+            margin-left: 20px;
+            font-family: 'Roboto-Regular';
+        }
+    }
+    .grow{
+        width: 375px;
+        height: 65px;
+        background-color: #3CC8AE;
+        margin-left: 0px;
+        margin-top: px;
+        .row_img5{
+          margin-left: 20px;  
+        }
+        .section_img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .section_text{
+        margin-left: 100px;
+    }
+    .section_box{
+        width: 375px;
+        height: 295px;
+        background-color: #3CC8AE;
+    }
+}
